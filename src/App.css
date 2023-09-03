@@ -2,8 +2,7 @@ body{
     background-color:grey;
 }
 .container{
-    background-color: black;
-    
+    background-color :#351060;
     width: 500px;
     position: relative;
     margin-left:  25%;
@@ -11,32 +10,43 @@ body{
     color:aqua;
 }
 h2{
-    padding-left: 40%;
-    color: brown;
+    padding-left: 30%;
+    color: orange;
+    font-family:'Times New Roman', Times, serif;    
+    font-size: 40px; 
 }
-input{
-    width: 300px;
-    margin-left: 5%;
-    margin-right:5%;
-    height: 20px;
-    border-radius: 5%;
-    background-color:bisque;
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-left:2px;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: bisque;
 }
 
 button {
-    height: 30px;
-    width:60px;
-    align-items: end;
-    margin-right:2%;
-    padding-right:5%;
-    margin-left: 5%;
-    border-radius:5%;
-    border-width: 4px;
-    border-color: white ;
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
-#btn{
+ li {
 
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid black;
+            font-size: 20px;
+            color:#fff;
+       
+ }
+ li:last-child {
+     border-bottom: none;
+ }
