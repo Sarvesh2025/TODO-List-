@@ -1,1 +1,42 @@
+body{
+    background-color:grey;
+}
+.container{
+    background-color: black;
+    
+    width: 500px;
+    position: relative;
+    margin-left:  25%;
+    margin-right: 25%;
+    color:aqua;
+}
+h2{
+    padding-left: 40%;
+    color: brown;
+}
+input{
+    width: 300px;
+    margin-left: 5%;
+    margin-right:5%;
+    height: 20px;
+    border-radius: 5%;
+    background-color:bisque;
+}
 
+button {
+    height: 30px;
+    width:60px;
+    align-items: end;
+    margin-right:2%;
+    padding-right:5%;
+    margin-left: 5%;
+    border-radius:5%;
+    border-width: 4px;
+    border-color: white ;
+}
+#btn{
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
